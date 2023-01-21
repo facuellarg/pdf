@@ -1,0 +1,15 @@
+
+.dates{
+    font-size: 0.6em;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title{
+    margin-bottom: 0px;
+}

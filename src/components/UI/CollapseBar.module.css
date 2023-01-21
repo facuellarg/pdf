@@ -1,0 +1,20 @@
+.collapse-bar{
+    /* width: 100%; */
+    /* border: 1px solid blue; */
+}
+
+.collapse-bar__children{
+    width: 100%;
+    animation: append-animate .3s cubic-bezier(0.075, 0.82, 0.165, 1) both;
+}
+
+@keyframes append-animate {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,40 @@
+.header{
+    display: grid;
+    grid-template-columns: min-content repeat(2, minmax(auto, 1fr));
+    text-transform: capitalize;
+   } 
+
+
+
+
+.name{
+    grid-row: 2/ span 1;
+    grid-column: 2/span 2;
+    font-size: 1.3rem;
+}
+
+
+.img__container{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    /* margin: 30px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    grid-row: 1/ span 4;
+    /* background-color: black; */
+}
+
+.img__container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.contact-info{
+    font-size: 0.5rem;
+    align-self: start;
+    line-height: 0px;
+    color: gray;
+}
